@@ -1,0 +1,161 @@
+.btn {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+
+.menu_botones {
+    text-align: center;
+}
+
+.menu_botones a {
+    background-color: #C898BD;
+    border-radius: 17px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+}
+body{
+    padding: 2px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+}
+.grid div{
+    background: #ffffff;
+    padding: 0em;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 310px 310px ;
+    grid-template-rows: 50px 50px 50px;
+}
+.grid2 div{
+    background: #b9b9b9;
+    padding: 1em;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 300px 300px ;
+    grid-template-rows: 80px 80px;
+    
+}
+.grid3 div{
+    background: #b9b9b9;
+    padding: 0.35em;
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 50px ;
+}
+.redes div{
+    background: #b9b9b9;
+}
+
+.imagenC{
+    margin-right: 50px;
+}
+.dentro{
+    align-self: center;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: 90px 200px;
+    grid-template-rows: 50px 50px 50px;
+}
+.grid4 div{ 
+    font-size: 13px;
+    background: #b9b9b9;
+    padding: 0em;
+}
+
+.area{
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 20px 20px;
+}
+.area div{
+    background: #b9b9b9;
+    padding: 0em;
+}
+
+#color{
+    border-radius: 10px;
+    background: #ffffff;
+}
+#celdaG{
+    grid-area: 1/2/3/2;
+}
+.msj{
+    display: grid;
+    grid-template-columns: 50px 50;
+    grid-template-rows: 150px;
+}
+.msj div{
+    background: #ffffff;
+    padding: 0em;
+}
+
+.seccion2{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 350px;
+}
+.seccion2 div{
+    background: #fdfcfc;
+    padding: 0em;
+}
+
+#color2{
+    border-radius: 10px;
+    background: #c2bcbc;
+}
+.seccion1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: auto;
+}
+.seccion2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.seccion3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.seccion4{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.kln{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 8px 3px;
+    text-decoration: none;
+}
+.kln-color{
+    color: black;
+    background-color: #a09e9e;
+}
+#Benviar{
+    text-align: center;
+}
+.seccion3{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 150px 80px;
+}
+.seccion3 div{
+    background: #ffffff;
+    padding: 0em;
+}
+#celdaF{
+    grid-area: 1/2/3/2;
+}
